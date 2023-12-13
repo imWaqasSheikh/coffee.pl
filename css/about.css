@@ -7,6 +7,7 @@ body {
     font-family: neco variable;
 
 }
+body::-webkit-scrollbar { display: none; }
 
 .primary-color {
     color: #bc955b;

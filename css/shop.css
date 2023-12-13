@@ -2,11 +2,21 @@ html,
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     font-family: neco variable;
+  
+   
+
 
 }
+body::-webkit-scrollbar { display: none; }
+
+.main{
+    width: 100vw;
+    
+}
+
 
 .primary-color {
     color: #bc955b;

@@ -7,40 +7,42 @@ document.addEventListener('DOMContentLoaded', function () {
       // Your script code here
     });
   })
-  document.addEventListener("DOMContentLoaded", function () {
-    var Btn = document.querySelector(".btn--gsap");
+})
+  // mouse animated
+//   document.addEventListener("DOMContentLoaded", function () {
+//     var Btn = document.querySelector(".btn--gsap");
 
-    var section1 = document.querySelector(".section-1");
+//     var section1 = document.querySelector(".section-1");
 
 
-    section1.addEventListener("mousemove", function (event) {
-      console.log("ok");
+//     section1.addEventListener("mousemove", function (event) {
+//       console.log("ok");
 
-      gsap.to(Btn, {
-        x: event.x,
-        y: event.y
-      });
-    });
-  }); 
+//       gsap.to(Btn, {
+//         x: event.x,
+//         y: event.y
+//       });
+//     });
+//   }); 
   
 
-var Btn = document.querySelector(".btn--gsap");
-var section1 = document.querySelector(".section-1");
+// var Btn = document.querySelector(".btn--gsap");
+// var section1 = document.querySelector(".section-1");
 
-section1.addEventListener("mouseenter", function (event) {
+// section1.addEventListener("mouseenter", function (event) {
 
-  gsap.to(Btn, {
-    scale: 1,
-    opacity: 1
-  });
-});
-section1.addEventListener("mouseleave", function (event) {
+//   gsap.to(Btn, {
+//     scale: 1,
+//     opacity: 1
+//   });
+// });
+// section1.addEventListener("mouseleave", function (event) {
 
-  gsap.to(Btn, {
-    scale: 0,
-    opacity: 0
-  });
-});
+//   gsap.to(Btn, {
+//     scale: 0,
+//     opacity: 0
+//   });
+// });
 
 
-});
+// })
