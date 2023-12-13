@@ -15,6 +15,24 @@
         padding: 20px 0px;
         
     }
+    .contant h2 {
+        
+        font-size: 4rem !important;
+        
+    
+    }
+    .contant-3-sub .col {
+        display: block;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .contant-3 .col .btn {
+        display: block;
+        margin: auto;
+        text-align: center;
+    
+    }
     .section-3 {
         width: 100vw;
         height: fit-content;

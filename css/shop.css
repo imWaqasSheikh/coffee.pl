@@ -268,7 +268,7 @@ img {
 }
 .btn-group{
     display: flex;
-    width: 80vw;
+    width: 75vw;
     margin: auto;
     height: 60px;
     background-color: transparent;
@@ -279,6 +279,17 @@ img {
 .btn-group .btn{
     background-color: transparent;
     font-size: 1.4rem;
+    border: none;
+    transition: 500ms;
+    
+    
+    
+}
+.btn-group .btn:hover{
+    background-color: rgba(38, 15, 1, 1);
+    color: #BFAC9B;
+    
+
 }
 
 .display-machines{
@@ -303,9 +314,10 @@ img {
     background-color: white;
     transition: 400ms;
     border: 2px solid rgba(38, 14, 0, 0.2);
-    ;
+    
     color: rgba(38, 14, 0, 1);
-    ;
+    overflow: hidden;
+    
 
 
 }
@@ -325,20 +337,74 @@ img {
 
     scale: 1;
     transition: 400ms;
+    
+    
 
 }
 
 
 .contant-2 .card img:hover {
-    scale: 1.2;
+    scale: 1.1;
 
 }
 
 .contant-2 .card .btn {
     background-color: #BFAC9B;
+    transition: 400ms;
 }
 
 .contant-2 .card .btn:hover {
     background-color: #593A1E;
     color: #F2F2F2;
 }
+
+
+
+
+/* section-footer start  */
+footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: #260F01;
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+}
+
+footer .container .row {
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+
+footer .social-icons {
+
+    font-size: 25px;
+
+}
+
+footer .social-icons i {
+
+    color: #BF988A;
+    margin: 0px 5px;
+    margin-top: 20px;
+}
+
+footer .social-icons i:hover {
+
+    color: #733527;
+
+}
+
+footer #COPYRIGHT {
+    font-size: 1.1rem;
+    align-items: center;
+    font-weight: 200;
+    opacity: 0.7;
+
+}
+
+/* section-footer start  */
