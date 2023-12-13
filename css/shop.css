@@ -266,6 +266,36 @@ img {
 
     letter-spacing: 1px;
 }
+.btn-group{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    height: 60px;
+    background-color: transparent;
+    border: 3px solid #260F01;
+    border-radius: 15px;
+    color: #260F01;
+}
+.btn-group .btn{
+    background-color: transparent;
+    font-size: 1.4rem;
+}
+
+.display-machines{
+    display: inline;
+    transition: 400ms;
+
+}
+.display-beans{
+    display: none;
+    transition: 400ms;
+
+}
+.display-accosories{
+    display: none;
+    transition: 400ms;
+}
+
 
 .contant-2 .card {
     display: block;
