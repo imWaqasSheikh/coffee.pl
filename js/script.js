@@ -23,7 +23,12 @@
 //   accosories.style.display = "inline";
 // });
 
-
+document.addEventListener("DOMContentLoaded", function() {
+  // Hide the preloader when the content is fully loaded
+  setTimeout(function() {
+      document.querySelector(".preloader").style.top = "-100%";
+  }, 3500);
+});
 console.log("haha");
 
 var machines = document.querySelector(".display-machines");
