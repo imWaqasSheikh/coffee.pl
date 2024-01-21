@@ -5,6 +5,9 @@
         font-size: 3rem;
         line-height: 10vh;
     }
+    .navbar{
+        padding: 15px 15px;
+    }
     .logo img {
         max-width: 60px;
         min-width: 50px;
