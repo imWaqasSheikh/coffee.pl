@@ -1,7 +1,10 @@
 /* Media query for mobile phones */
 
 @media only screen and (max-width: 600px) {
-  
+    .preloader h1{
+        font-size: 3rem;
+        line-height: 10vh;
+    }
     .logo img {
         max-width: 60px;
         min-width: 50px;
@@ -78,7 +81,7 @@
     }
     footer {
         width: 100vw;
-        height: 25vh;
+        
         
         align-items: center;
         padding-top: 40px;
